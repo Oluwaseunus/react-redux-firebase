@@ -67,7 +67,7 @@ const SideDrawer = () => {
         </Wrapper>
       </FixedWrapper>
       <Menu opened={isOpened}>
-        <NavItems mobile clicked={() => setIsOpened(false)} />
+        <NavItems mobile='true' clicked={() => setIsOpened(false)} />
       </Menu>
     </>
   );

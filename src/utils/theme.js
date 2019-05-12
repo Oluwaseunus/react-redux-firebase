@@ -1,12 +1,13 @@
 const Theme = {
   colors: {
+    errorRed: '#FF5757',
     main: '#003459',
-    mainDark: '#00171F',
-    mainLight: '#007EA7',
+    mainDark: '#21283E',
+    mainLight: '#2C3247',
     mainLighter: '#00A8E8',
+    shadow: 'rgba(0, 0, 0, 0.2)',
     textColor: '#333',
-    whiteColor: '#fff',
-    shadow: 'rgba(0, 0, 0, 0.2)'
+    whiteColor: '#fff'
   },
 
   mediaQueries: {

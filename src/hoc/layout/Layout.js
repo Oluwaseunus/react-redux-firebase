@@ -8,6 +8,9 @@ const MainWrapper = styled.div`
   width: 100%;
   min-height: calc(100vh - 4rem);
   margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const Layout = ({ children }) => {
