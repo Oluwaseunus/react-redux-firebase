@@ -70,7 +70,6 @@ const Signup = () => {
               name='email'
               placeholder='Enter your email'
             />
-
             <Field
               component={Input}
               type='password'
